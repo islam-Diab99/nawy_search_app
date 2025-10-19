@@ -43,3 +43,59 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# iOS / macOS
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+macos/Pods/
+macos/Podfile.lock
+
+# Android
+.gradle/
+**/gradle-wrapper.jar
+**/gradlew
+**/gradlew.bat
+local.properties
+*.jks
+*.keystore
+
+# Linux / Windows
+linux/build/
+windows/build/
+
+# Secrets
+*.env
+*.key
+*.p12
+*.pem
+*.secret
+*.config
+google-services.json
+GoogleService-Info.plist
+
+# Logs / temp
+*.log
+test_output/
