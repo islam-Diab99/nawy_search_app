@@ -20,7 +20,7 @@ A Flutter application built for the Nawy Technical Assignment — helping users 
 ## Run the App
 
 ```bash
-git clone https://github.com/<your-username>/nawy-search-app.git
+git clone https://github.com/islam-Diab99/nawy_search_app
 cd nawy-search-app
 flutter pub get
 flutter run
